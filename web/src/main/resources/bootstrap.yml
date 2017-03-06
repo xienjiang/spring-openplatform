@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: example-web
+encrypt:
+  failOnError: false
