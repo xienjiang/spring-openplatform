@@ -1,0 +1,14 @@
+server:
+  port: 10000
+
+sidecar:
+  port: 8000
+
+zuul:
+  routes:
+    user:
+      url: http://localhost:8080
+
+ribbon:
+  eureka:
+    enabled: false
